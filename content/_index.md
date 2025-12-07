@@ -15,4 +15,4 @@ To access Index, click here <https://notes.yagis.dev/notes/>.
 
 ## Highlighted Articles
 
-- [[Network/What Happens When You Visit a Website?|What Happens When You Visit a Website?]]
+- [[notes/What Happens When You Visit a Website?|What Happens When You Visit a Website?]]
