@@ -1,6 +1,6 @@
 ---
-title: Save's Notes
-date updated: 2025-12-07 16:52
+title: Yağız's Notes
+date updated: 2025-12-07 17:45
 ---
 
 ## About me
