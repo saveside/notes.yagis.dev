@@ -8,24 +8,26 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Quartz 4",
+    pageTitle: "Yağız's Notes",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
-      provider: "plausible",
+      provider: "umami",
+      websiteId: '',
+      host: "https://umami.yagis.dev"
     },
     locale: "en-US",
-    baseUrl: "quartz.jzhao.xyz",
+    baseUrl: "notes.yagis.dev",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
     theme: {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Schibsted Grotesk",
-        body: "Source Sans Pro",
-        code: "IBM Plex Mono",
+        header: "Archivo",
+        body: "Noto Sans",
+        code: "JetBrains Mono",
       },
       colors: {
         lightMode: {
@@ -40,15 +42,15 @@ const config: QuartzConfig = {
           textHighlight: "#fff23688",
         },
         darkMode: {
-          light: "#161618",
-          lightgray: "#393639",
-          gray: "#646464",
-          darkgray: "#d4d4d4",
-          dark: "#ebebec",
-          secondary: "#7b97aa",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#b3aa0288",
+          light: "#121314",
+          lightgray: "#555753",
+          gray: "#888a85",
+          darkgray: "#babdb6",
+          dark: "#eeeeec",
+          secondary: "#7bb3e0",
+          tertiary: "#3465a4",
+          highlight: "rgba(114, 159, 207, 0.15)",
+          textHighlight: "#204a8788",
         },
       },
     },
